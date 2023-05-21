@@ -1,0 +1,28 @@
+<textarea cols="200" rows="8" scrolling="no">
+/* Maksymilian Dulęba
+text-decoration: none - wyłącza dekoracje do tekstu (np podkreślenie lub przekreślenie linią)
+text-decoration: underline - dodaje linie która podkreśla tekst
+*/
+div
+{
+    color:red;
+    font-size: 2cm;
+}
+A
+{
+font-size: 18pt;
+text-decoration: none;
+}
+A:link
+{
+color: blue;
+}
+A:visited
+{
+color: green;
+}
+A:hover
+{
+color: red;
+text-decoration: underline;
+}
