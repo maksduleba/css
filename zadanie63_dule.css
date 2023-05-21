@@ -1,0 +1,48 @@
+/*Maksymilian Dulęba*/
+div#pierwszy_duleba
+{
+    width: 724pt ;
+	margin-left: auto;
+    margin-right: auto;
+	background-color:#add8e6;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+    border: #000080 solid 5px;
+}
+div#drugi_duleba
+{
+    width: 924pt ;
+    background-color: #ffc0cb;
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+    border-bottom-left-radius: 13px;
+    border-bottom-right-radius: 13px;
+    border: #000000 solid 3px;
+}
+div#trzeci_duleba
+{
+    width: 1124pt ;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #90ee90;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: #800080 solid 7px;
+}
+p
+{
+    font-size:10pt;
+}
+p:first-child
+{
+    font-size:9mm;
+    font-style:italic;
+}
+body
+{
+    background-color: #808080;
+} 

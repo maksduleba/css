@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Maksymilian Dulęba zadanie 58</title>
+        <meta charset="utf-8">
+        <style>
+            table,td
+            {
+                border:black solid 1px;
+            }
+        </style>
+    </head>
+    <body>
+        <ol>
+            <li><h1>Co to są pseudoklasyk?</h1></li>
+            <p>Określone przez CSS kilka ściśle określonych klas pozwalających na formatowanie</p>
+            <li><h1>Uwaga dotycząca dwukropka :</h1></li>
+            <p>Przy tworzeniu css należy wpisać dwukropek w konstrukcji</p>
+            <p>np p:link</p>
+            <li><h1>Tabela(wykonana w htmlu) opisującą pseudoklasy.</h1></li>
+            <table>
+                <tr>
+                    <td>A:link</td>
+                    <td>odpowiada za wygląd hiperłącza, jeżeli nie zostało ono jeszcze odwiedzone.</td>
+                </tr>
+                <tr>
+                    <td>A:visited</td>
+                    <td>odpowiada za formatowanie hiperłącza już odwiedzonego.</td>
+                </tr>
+                <tr>
+                    <td>A:hover</td>
+                    <td>zmiany pewnych elementów po najechaniu na nie urządzeniem wskazującym (np. myszą),<br> np. odsyłacz, nad którym zatrzymano kusor lub element blokowy DIV.</td>
+                </tr>
+                <tr>
+                    <td>A:active</td>
+                    <td>pozwala nadać dowolne formatowanie elementowi po nakierowaniu na niego wskaźnika<br> myszy i wciśnięciu przycisku, ale przed jego zwolnieniem (odsyłacz aktywny kliknięty).</td>
+                </tr>
+                <tr>
+                    <td>A:focus</td>
+                    <td>jeżeli chcemy, by właśnie wyświetlany odsyłacz z menu był formatowany innym kolorem.<br> Odsyłacz posiadający tzw fokus-zaznaczony przy poruszaniu się po dokumencie przy pomocy klawisza
+                        tabulacji: naciśnięcie w tym momencie klawisza ENTER spowoduje taką reakcję przeglądarki,<br> jakby dany odsyłacz został kliknięty.
+                    </td>
+                </tr>
+                <tr>
+                    <td>A:lang</td>
+                    <td>formatowanie wielojęzykowych dokumentów.</td>
+                </tr>
+                <tr>
+                    <td>A:first-child</td>
+                    <td>umożliwia określenie formatowania dla pierwszego dziecka wybranego elementu.</td>
+                </tr>
+            </table>
+            <li><h1>Zastosowanie pseudoklasy :active</h1></li>
+            <p>Jako element poprawiający czytelność formularzy /uzupełnienie definicji odnośników</p>
+            <li><h1>Przykłady (trzy) kodów definiowania pseudoklas (wraz z tematem)</h1></li>
+            <p>temat formatowanie hiperłącza</p>
+            <textarea>
+                A:link
+                {
+                    color:black;
+                }
+                A:visited
+                {
+                    color:yellow;
+                }
+                A:hover
+                {
+                    color:green;
+                }
+            </textarea>
+        </ol>
+    </body>
+</html>

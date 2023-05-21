@@ -1,0 +1,65 @@
+/*Maksymilian Dulęba*/
+/* Określenie oddzielnego formatowania dla każdego stanu odnośnika. */
+/*Normalne odnosniki*/
+A
+{
+font-size:24pt;
+text-decoration:none;
+}
+A:link
+{
+color:navy;
+}
+A:visited
+{
+color:green;
+}
+A:hover
+{
+color:red;
+text-decoration:underline;
+}
+/*Male odnosniki*/
+A.maly
+{
+font-size: 12pt;
+}
+A.maly:link
+{
+color:silver;;
+}
+A.maly:visited
+{
+color:yellow;
+}
+A.maly:hover
+{
+color:black;
+text-decoration:none;
+}
+A:active
+{
+color:silver;
+}
+/*Duże odnośniki*/
+A.duzy
+{
+font-size: 50pt;
+}
+A.duzy:link
+{
+color:gold;;
+}
+A.duzy:visited
+{
+color: green;
+}
+A.duzy:hover
+{
+color:purple;
+text-decoration:none;
+}
+A.duzy:active
+{
+color: blue;
+}
